@@ -1,3 +1,3 @@
 label,type,text,yes,no,nsp,coma
-"label: 'a1'","type: 'decision'","text: ['Do you know the ','Open Access policy','of the journal?']","yes: 'a2'","no: 'a3'",,","
+"label: 'a1'","type: 'decision'","text: ['Do you know the ','Open Access policy','of your journal?']","yes: 'a2'","no: 'a3'",,","
 "label: 'a2'","type: 'decision'","text: ['Does it have Open','Access paid option or is it an',' Open Access journal?']","yes: 'a5'","no: 'a4'",,
