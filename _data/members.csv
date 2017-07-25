@@ -1,0 +1,6 @@
+label1,label2
+"label: 'knowPolicy'","label: 'hasOAPolicy'"
+"type: 'decision'","type: 'decision'"
+"text: ['Do you know the ','Open Access policy','of the journal?']","text: ['Does it have Open','Access paid option or is it an',' Open Access journal?']"
+"yes: 'hasOAPolicy'","yes: 'CCOffered'"
+"no: 'checkPolicy'","no: 'canWrap'"
