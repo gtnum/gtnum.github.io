@@ -26,7 +26,7 @@ a:hover {
 <script type="text/javascript">
 ///////////////////// start flow chart ////////////////////////////////////////////////////////////
 
-    flowSVG.draw(SVG('drawing').size(900, 900));
+    flowSVG.draw(SVG('drawing').size(3000, 3000));
     flowSVG.config({
         //interactive: true,
         //showButtons: true,
@@ -37,7 +37,7 @@ a:hover {
 
 flowSVG.shapes(
 	[
-	   {% for member in site.data.members2 %}
+	   {% for member in site.data.members3 %}
 	        { {{ member.label }},
 		  {{ member.type }}, 
                   {{ member.text }},
