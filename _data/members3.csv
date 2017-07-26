@@ -12,6 +12,6 @@
 "label: 'c8'","type: 'decision'","text: ['Est-ce que cette ','œuvre d’art graphique, plastique',' ou archtitecturale est',' dans le domaine public ?']","yes: 'a10'","no: 'a8'",,","
 "label: 'a8'","type: 'decision'","text: ['Est-ce la photo',' comporte une personne',' vivante ?']","yes: 'a9'","no: 'a10'",,","
 "label: 'a9'","type: 'decision'","text: ['La personne est ','elle identifiable ?']","yes: 'a11'","no: 'a10'",,","
-"label: 'a11'","type: 'decision'","text: ['Est-ce que la ','photo comporte le bien',' d’une personne privée?']","yes: 'a10'","no: 'a10'",,","
+"label: 'a11'","type: 'decision'","text: ['Est-ce que la ','photo comporte le bien',' d’une personne privée?']","yes: 'a12'","no: 'a10'",,","
 "label: 'a12'","type: 'finish'","text: ['Vous devez obtenir les autorisations :',' - de l’auteur/héritiers de la photo',' – de celle du titulaire des droits de l’oeuvre d’art GPA',' – de ou des personnes vivantes identifiables représentées (sauf exceptions liens).']","yes: 'a10'","no: 'a10'",,","
 "label: 'a10'","type: 'finish'","text: ['STOP']","yes: 'a10'","no: 'a10'",,
