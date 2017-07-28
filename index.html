@@ -40,7 +40,10 @@ flowSVG.shapes(
 	   {% for member in site.data.members3 %}
 	        { {{ member.label }},
 		  {{ member.type }}, 
+		  {% if member.links %}{{ member.links }},{% endif %}
+	          {% if member.tip %}{{ member.tip }} ,{% endif %}
                   {{ member.text }} {% if member.type contains 'finish' %} {% else %},
+		  {% if member.jnsp %}{{ member.jnsp }},{% endif %}
 		  {{ member.yes }}, 
                   {{ member.no }} {% endif %} }  {{ member.coma }}
 	   {% endfor %}

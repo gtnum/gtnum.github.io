@@ -1,17 +1,17 @@
-"label","type","text","yes","no","nsp","coma"
-"label: 'a1'","type: 'decision'","text: ['Est-ce une œuvre',' de l’esprit?']","yes: 'a2'","no: 'a10'",,","
-"label: 'a2'","type: 'decision'","text: ['Est-ce que le','document est','une PHOTO?']","yes: 'b7'","no: 'a3'",,","
-"label: 'a3'","type: 'decision'","text: ['Est-ce que le ','document est',' une MUSIQUE?']","yes: 'b7'","no: 'a4'",,","
-"label: 'a4'","type: 'decision'","text: ['Est-ce que le',' document provient',' de la PRESSE?']","yes: 'b7'","no: 'a5'",,","
-"label: 'a5'","type: 'decision'","text: ['Est-ce que le',' document est',' une OEUVRE DE',' L’ECRIT?']","yes: 'b7'","no: 'a6'",,","
-"label: 'a6'","type: 'decision'","text: ['Est-ce que le',' document est',' une OEUVRE AUDIOVISUELLE?']","yes: 'b7'","no: 'a10'",,","
-"label: 'b7'","type: 'decision'","text: ['Est-ce l’AUTEUR ','ou ses HERITIERS',' qui possèdent les',' droits ?']","yes: 'a7'","no: 'b8'",,","
-"label: 'b8'","type: 'decision'","text: ['Est-ce un',' EDITEUR qui possède ','les droits ?']","yes: 'a7'","no: 'b9'",,","
-"label: 'b9'","type: 'decision'","text: ['Est-ce qu’une',' société de GESTION COLLECTIVE',' possède les droits ?']","yes: 'a7'","no: 'a10'",,","
-"label: 'a7'","type: 'decision'","text: ['Est-ce qu’une ','œuvre d’art graphique, ','plastique ou architecturale',' est sur la photo ?']","yes: 'a8'","no: 'a10'",,","
-"label: 'c8'","type: 'decision'","text: ['Est-ce que cette ','œuvre d’art graph / plast',' ou arch est',' dans le domaine public ?']","yes: 'a10'","no: 'a8'",,","
-"label: 'a8'","type: 'decision'","text: ['Est-ce que la photo',' comporte une personne',' vivante ?']","yes: 'a9'","no: 'a10'",,","
-"label: 'a9'","type: 'decision'","text: ['La personne est ','elle identifiable ?']","yes: 'a11'","no: 'a10'",,","
-"label: 'a11'","type: 'decision'","text: ['Est-ce que la ','photo comporte le bien',' d’une personne privée?']","yes: 'a12'","no: 'a10'",,","
-"label: 'a12'","type: 'finish'","text: ['Vous devez obtenir les autorisations :',' - de l’auteur/héritiers de la photo',' – de celle du titulaire des droits de l’oeuvre d’art GPA',' – de ou des personnes vivantes identifiables représentées (sauf exceptions liens).']",,,,","
-"label: 'a10'","type: 'finish'","text: ['STOP']",,,,
+"label","type","text","yes","no","jnsp","coma","links","tip"
+"label: 'a1'","type: 'process'","text: ['Est-ce une œuvre',' de l’esprit?']","yes: 'a2'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]","tip : { title: 'REF 2020 Note',  text: [   'You must put your',  'accepted version in WRAP',   'within 3 months of',   'acceptance. If time limits',  'comply with RCUK they',  'comply for the REF too.'   ]} "
+"label: 'a2'","type: 'process'","text: ['Est-ce que le','document est','une PHOTO?']","yes: 'b7'","no: 'a3'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a3'","type: 'process'","text: ['Est-ce que le ','document est',' une MUSIQUE?']","yes: 'b7'","no: 'a4'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a4'","type: 'process'","text: ['Est-ce que le',' document provient',' de la PRESSE?']","yes: 'b7'","no: 'a5'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a5'","type: 'process'","text: ['Est-ce que le',' document est',' une OEUVRE DE',' L’ECRIT?']","yes: 'b7'","no: 'a6'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a6'","type: 'process'","text: ['Est-ce que le',' document est',' une OEUVRE ','AUDIOVISUELLE?']","yes: 'b7'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'b7'","type: 'process'","text: ['Est-ce l’AUTEUR ','ou ses HERITIERS',' qui possèdent les',' droits ?']","yes: 'a7'","no: 'b8'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'b8'","type: 'process'","text: ['Est-ce un',' EDITEUR qui possède ','les droits ?']","yes: 'a7'","no: 'b9'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'b9'","type: 'process'","text: ['Est-ce qu’une',' société de GESTION ',' COLLECTIVE',' possède les droits ?']","yes: 'a7'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a7'","type: 'process'","text: ['Est-ce qu’une ','œuvre d’art graphique, ','plastique ou architecturale',' est sur la photo ?']","yes: 'a8'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'c8'","type: 'process'","text: ['Est-ce que cette ','œuvre d’art graph / plast',' ou arch est',' dans le domaine public ?']","yes: 'a10'","no: 'a8'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a8'","type: 'process'","text: ['Est-ce que la photo',' comporte une personne',' vivante ?']","yes: 'a9'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a9'","type: 'process'","text: ['La personne est ','elle identifiable ?']","yes: 'a11'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a11'","type: 'process'","text: ['Est-ce que la ','photo comporte le bien',' d’une personne privée?']","yes: 'a12'","no: 'a10'",,",","links : [ {  text: 'Je ne sais pas',  url: 'https://www.economie.gouv.fr/daj'    }  ]",
+"label: 'a12'","type: 'finish'","text: ['Vous devez obtenir les autorisations :',' - de l’auteur/héritiers de la photo',' – de celle du titulaire des droits de l’oeuvre d’art GPA',' – de ou des personnes vivantes identifiables représentées (sauf exceptions liens).']",,,,",",,
+"label: 'a10'","type: 'finish'","text: ['STOP']",,,,,,"tip : { title: 'En savoir plus',  text: [   'Vous pouvez en savoir ',  'plus si vous', ' regardez du côté des', ' ressources existantes',  'disponibles en ligne',  'sur le site du GT Num.'   ]} "
